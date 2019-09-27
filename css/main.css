@@ -39,26 +39,17 @@
 /*--------------------------------------------------------------
 3.0 - GENERIC
 -------------------------------------------------------------- */
-.wrapper{
-	margin: 0 auto;
-}
 
-html {
-	font-size: 1rem;
-	
-}
 
 @media only screen and (min-width: 768px) {
 	html {
-		font-size: 1rem;
-		background-color: #fee6e2;
+		font-size: 1.2rem;
 	}
-}
+
 
 @media only screen and (min-width: 1024px) {
 	html {
 		font-size: 1rem;
-		background-color: #fee6e2;
 	}
 	.wrapper {
 		width: 50%;
@@ -72,22 +63,17 @@ html {
 /* -- TYPOGRAPHY -- */ 
 
 
-@media only screen and (min-width: 768px) {
-	.wrapper {
-		width: 75%;
-		background-color: #fee6e2;
-	}
-	
-}
-
 h1 {
-	font-size: 2.6rem;
+	font-size: 2.1rem;
+	line-height: 1.2em;
 	font-family: 'Roboto', sans-serif;
 	text-align:left;
 	
 }
+	
 h1 span{
 	font-size: 1.5rem;
+	line-height: 1.2em;
 	color: #743d5e;
 }
 
@@ -99,56 +85,39 @@ h2 {
 	font-weight: 500;
 	
 }
+
 p {
-	font-size: 1rem;
+	font-size: 1.1rem;
+	line-height: 1.75em;
+	margin:.5em;
 	font-family: 'Roboto', sans-serif;
-	width: 80%;
-	line-height: 1.6rem;
-	
 }
 
 @media only screen and (min-width: 1024px) {
 	.wrapper {
-		width: 50%;
-		background-color: #fee6e2;
+		
 	}
 	
 }
 a {
 	text-decoration: none;
-	color: #7c5a7d;
+	color: #540860;
 }
 a:hover{
-	color: #fff;
+	color: #A580D7;
 }
-
 
 
 /* -- LISTS -- */
 
 ul{
-	color: #85456a;
+	color: #550286;
 }
 
 li {
 	padding-bottom: 1.1em;
 	font-size: 1.1rem;
 	font-weight: 500;
-	list-style: none;
+	}
 }
 
-
-/*--------------------------------------------------------------
-5.0 - OBJECTS
--------------------------------------------------------------- */
-
-/* -- FRAMEWORK -- */ 
-
-
-
-
-/*--------------------------------------------------------------
-6.0 - COMPONENTS
--------------------------------------------------------------- */
-
-/* -- HEADER -- */
